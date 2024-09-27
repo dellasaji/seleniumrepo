@@ -23,6 +23,8 @@ public class Browserlaunch1 {
 		String sourcecode = driver.getPageSource();
 		System.out.println(sourcecode);
 		
+		driver.close();//to close the current Web page 
+		
 
 	}
 
